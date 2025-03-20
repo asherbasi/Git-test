@@ -1,0 +1,39 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+#wow{
+    width:300px;
+    border-radius: 20px;
+}
+
+body{background-color: hsl(212, 45%, 89%);
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    word-wrap:break-word;
+
+}
+
+.box{display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+    border-radius: 30px;
+    margin:30px;
+    width: fit-content;
+    height:70vh;
+    overflow:hidden;
+    background-color:hsl(0, 0%, 100%);
+    cursor:zoom-in;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:20px;
+}
+
+.text{
+    padding-top:10px;
+    text-align: center;
+    font-size:15px;
+}
